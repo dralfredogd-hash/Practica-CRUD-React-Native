@@ -54,6 +54,14 @@ export default function CustomDrawerContent(props) {
                     style={focusedRoute === 'Prueba' ? styles.drawerItemActive : null}
                     labelStyle={focusedRoute === 'Prueba' ? styles.drawerLabelActive : null}
                 />
+                <DrawerItem
+                    label="Crud"
+                    focused={focusedRoute === 'Crud'}
+                    onPress={() => props.navigation.navigate('Crud')}
+                    icon={() => <Ionicons name="images-outline" size={20} />}
+                    style={focusedRoute === 'Crud' ? styles.drawerItemActive : null}
+                    labelStyle={focusedRoute === 'Crud' ? styles.drawerLabelActive : null}
+                />
             </View>
 
       

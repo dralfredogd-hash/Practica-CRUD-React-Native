@@ -9,6 +9,9 @@ import { config } from '@gluestack-ui/config';
 import { ThemeContext } from './context/ThemeContext';
 import ProfileScreen from './screens/ProfileScreen';
 import PruebaScreen from './screens/PruebaScreen';
+import CrudScreen from './screens/CrudScreen';
+import { ToastProvider } from '@gluestack-ui/themed';
+
 
 const Drawer = createDrawerNavigator();
 
@@ -55,6 +58,14 @@ export default function App() {
             <Drawer.Screen
               name="Prueba"
               component={PruebaScreen}
+              options={{
+                title: 'Prueba',
+                headerTitle: 'Vista de Prueba'
+              }}
+            />
+            <Drawer.Screen
+              name="Crud"
+              component={CrudScreen}
               options={{
                 title: 'Prueba',
                 headerTitle: 'Vista de Prueba'

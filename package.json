@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "npx expo start",
-  "android": "npx expo start --android",
-  "ios": "npx expo start --ios",
-  "web": "npx expo start --web"
-},
+    "start": "npx expo start",
+    "android": "npx expo start --android",
+    "ios": "npx expo start --ios",
+    "web": "npx expo start --web"
+  },
   "dependencies": {
     "@expo/html-elements": "^0.12.5",
     "@expo/vector-icons": "^15.0.3",
@@ -26,6 +26,7 @@
     "expo": "~54.0.23",
     "expo-splash-screen": "~31.0.10",
     "expo-status-bar": "~3.0.8",
+    "firebase": "^12.6.0",
     "lucide-react-native": "^0.510.0",
     "nativewind": "^4.1.23",
     "react": "19.1.0",
