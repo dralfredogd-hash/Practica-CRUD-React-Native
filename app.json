@@ -1,29 +1,32 @@
 {
   "expo": {
-    "name": "DEMO",
-    "slug": "DEMO",
+    "name": "Induspack",
+    "slug": "Induspack",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "orientation": "default",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/Induspack-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#d35400"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Induspack-logo.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.alfredogr.Induspack"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "07a77b7b-9376-4059-bfd7-653020b337e3"
+      }
     }
   }
 }
